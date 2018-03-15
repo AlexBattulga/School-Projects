@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Raleway', sans-serif;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+p{
+    font-size: 14px;
+}
+
+/* ========= Generic CSS =======*/
+.section-title{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.section-title h2{
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-title h2:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+.section-title p {
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+
+
+/* ========= header ==========*/
+
+.header{
+    background-image: url("../images/work.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.header-overlay{
+    background-color: rgba(31, 31, 31, 0.75);
+}
+.logo{
+    padding-bottom: 50px;
+    padding-top: 25px;
+    color: #129CF3;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+.header-text h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.header-text p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.header-btns{
+    margin-top: 90px;
+    margin-bottom: 250px;
+}
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{
+    background-color: #129CF3;
+    color: #fff;
+    border-color: #129CF3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.btn-download:hover{
+    background: transparent;
+    color:#129CF3;
+}
+.btn-login,
+.btn-login:focus,
+.btn-login:active,
+.btn-login:visited
+{
+    background-color: transparent;
+    color: #129CF3;
+    border-color: #129CF3;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.btn-login:hover{
+    background: #129CF3;
+    color:#fff;
+}
+
+.header-image img{
+    width: 100%;
+}
+/* ========= About us ==========*/
+.about-us-viu{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.about-viu img{
+    width: 550px;
+    height: 500px;
+}
+
+/*========= Right section =========*/
+.right-section h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.right-section p{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
+.right-section-desc{
+    padding-top: 20px;
+    position:relative;
+    padding-bottom: 4px;
+    padding-left: 100px;
+}
+.right-section-desc div{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.right-section-desc div i {
+    font-size: 40px;
+    color: #9d9d9d;
+    padding-top: 45px;
+    padding-right: 15px;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+/*========= Left section =========*/
+.left-section h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.left-section p{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
+.left-section-desc{
+    padding-top: 20px;
+    position:relative;
+    padding-bottom: 4px;
+    padding-right: 120px;
+    text-align: right;
+}
+.left-section-desc div{
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.left-section-desc div i {
+    font-size: 40px;
+    color: #9d9d9d;
+    padding-top: 45px;
+    padding-left: 155px;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+/* ========= Create account ==========*/
+.account{
+    background-image: url("../images/contact.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.account-overlay{
+    background-color: rgba(31, 31, 31, 0.3);
+}
+.section-head{
+    color: #fff;
+}
+.form-control{
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.btn-primary:hover{
+    border: 1px solid #d8d8d8;
+}
+.social-media{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.social-media-icons ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+.social-media-icons ul li{
+    display: inline;
+}
+
+.social-media-icons ul li i{
+    color: #211D1D;
+    font-size: 80px;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.social-media-icons .icon-one{
+    padding-right: 150px;
+}
+.social-media-icons .icon-two{
+    padding-right: 50px;
+}
+.social-media-icons .icon-three{
+    padding-left: 90px;
+}
+.social-media-icons ul li i:hover{
+    color: #129CF3;
+}
+footer{
+    background: #211D1D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#copyright p{
+    font-family: "Source sans pro", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 220px;
+    padding-top: 15px;
+}
+#copyright a{
+    text-decoration: none;
+}
+.arrow-up{
+    font-size: 30px;
+    padding-left: 70px;
+}
+/*======Welcome Page=======*/
+.welcome-user{
+    background-color: #211D1D;
+}
+.greeting-guest{
+    text-align: right;
+}
+.display-4{
+    font-size: 16px;
+    color: #fff;
+}
+.bank-icon{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.bank-icon a i{
+    color: #fff;
+    font-size: 200px;
+    padding-bottom: 80px;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.bank-icon a i:hover{
+    color: #129CF3;
+}
+.display{
+    text-align: center;
+    padding-bottom: 260px;
+}
+.display ul{
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
+.display ul li{
+    background-color: #211D1D;
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 5px;
+    padding: 30px 15px;
+    border: 1px solid #fff;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.display ul li:hover{
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+}
+.display ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+/*======= Customer Info ========*/
+.cus-info{
+    margin-top: 40px;
+    margin-bottom: 400px;
+}
+/*======= Deposit and Withdrawal ========*/
+.depo-with{
+    margin-top: 20px;
+    margin-bottom: 260px;
+}
+.table-style{
+    margin-top: 80px;
+    margin-bottom: 450px;
+    font-family: "Source sans pro", sans-serif;
+    font-size: 18px;
+}
+.back-button .btn{
+    margin-top: 50px;
+}
+.table-style .btn{
+    width: 80px;
+}
+
+/*======= Customer Loan ========*/
+.loan-info{
+    padding-top: 20px;
+    padding-bottom: 260px;
+}
+/*======= Customer Account ========*/ 
+.cus-acc{
+    padding-top: 20px;
+    padding-bottom: 260px;
+}
+/*======= Statement & Balance ========*/ 
+.cus-balance{
+    padding-top: 20px;
+    padding-bottom: 260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
